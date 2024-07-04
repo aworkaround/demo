@@ -1,0 +1,7 @@
+
+vscode:
+  extensions:
+    - ms-python.python
+tasks:
+    - init: poetry install
+      command: poetry run python main.py
