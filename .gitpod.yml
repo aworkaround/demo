@@ -5,3 +5,8 @@ vscode:
 tasks:
     - init: poetry install
       command: poetry run python main.py
+
+ports:
+  - port: 5000
+    visibility: private
+    onOpen: open-browser
